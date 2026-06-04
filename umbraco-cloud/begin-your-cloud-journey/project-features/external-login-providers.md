@@ -76,7 +76,8 @@ Locate and note down the following keys:
 {% hint style="info" %}
 #### Enterprise or custom setup
 
-If you're working with an enterprise or a custom setup, ensure the email claim is included in the ID token configuration.
+If you're working with an enterprise or a custom setup, ensure the email claim is included in the ID token configuration. 
+It is also very important that every user has an email under Properties/Contact information; otherwise, the setup will not work and the backoffice login will redirect to the login page.
 {% endhint %}
 {% endtab %}
 
